@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LogIn Page of pInfo</title>
+    <link rel="stylesheet" type="text/css" href="stylelogin.css">
+</head>
+
+<body>
+    <section>
+        <div class="imgBx">
+            <img src="D:\Patient Infro System\Front End-Meeting 4\Images\login.jpg">
+        </div>
+        <div class="contentBx">
+            <div class="formBx">
+                <h2>Login</h2>
+                <form name="myForm" method="post">
+                    <div class="inputBx">
+                        <label for="loginuser">Email Id</label>
+                        <input type="text" placeholder="Enter Your Email Id" name="loginuser" id="email" required />
+                    </div>
+                    <div class="inputBx">
+                        <label for="loginpassword">Password</label>
+                        <input type="password" placeholder="Enter Your Password" name="loginpassword" id="password"
+                            required />
+                    </div>
+                    <!--<div class="remember">
+                        <label><input type="checkbox" name="">Show Password</label>
+                    </div>-->
+                    <div class="inputBx">
+                        <!-- <input type="submit" name="Sign In" onclick="window.location.href = 'dashboard.html';"> -->
+                        <button type="submit" onclick="window.location.href = 'dashboard.html';">Sign In</button>
+                    </div>
+                    <div class="inputBx">
+                        <p>Don't have an account?<a href="registration.html"> Sign Up</a></p>
+                    </div>
+                </form>
+                <h3>SignUp with other Applications</h3>
+                <ul class="social">
+                    <li><img
+                            src="D:\Patient Infro System\Front End-Meeting 4\Images\1298745_google_brand_branding_logo_network_icon.png">
+                    </li>
+                    <li><img
+                            src="D:\Patient Infro System\Front End-Meeting 4\Images\5296499_fb_facebook_facebook logo_icon.png">
+                    </li>
+                    <li><img src="D:\Patient Infro System\Front End-Meeting 4\Images\834713_linkedin_icon.png"></li>
+                    <li><img
+                            src="D:\Patient Infro System\Front End-Meeting 4\Images\5296514_bird_tweet_twitter_twitter logo_icon.png">
+                    </li>
+                    <li><img
+                            src="D:\Patient Infro System\Front End-Meeting 4\Images\1164347_instagram_logo_media_network_new_icon.png">
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- <script>
+        function auth() {
+            var email = document.getElementById("email").value;
+            var password = document.getElementById("password").value;
+            // var email = document.forms["myForm"] && ["loginuser"]
+            // var password = document.forms["myForm"] && ["loginpassword"];
+            if (email=="admin@gmail.com" && password=="admin@123") {
+                alert("Success Login!");
+                window.location.href="dashboard.html";
+            }
+            else{
+                alert("Invalid Information");
+                return;
+            }
+        }
+    </script> -->
+</body>
+
+</html>

@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Page for pInfo</title>
+    <link rel="stylesheet" type="text/css" href="styleregistration.css">
+</head>
+
+<body>
+    <section>
+        <div class="imgBx">
+            <img src="D:\Patient Infro System\Front End-Meeting 4\Images\login.jpg">
+        </div>
+        <div class="contentBx">
+            <div class="formBx">
+                <h2>Registration</h2>
+                <form action="" method="post">
+                    <div class="inputBx">
+                        <div class="inputBx">
+                            <label for="name">Full Name</label>
+                            <input type="text" placeholder="Enter Your Full Name" name="name" required>
+                        </div>
+
+                        <div class="inputBx">
+                            <label for="username">User Name</label>
+                            <input type="text" placeholder="Enter Your User Name" name="uname" required>
+                        </div>
+                        <div class="inputBx">
+                            <label for="email">Email</label>
+                            <input type="email" placeholder="Enter Your Email Address" name="email" required>
+                        </div>
+                        <div class="inputBx">
+                            <label for="phonenumber">Phone Number</label>
+                            <input type="tel" placeholder="Enter Your Phone Number" name="phoneNumber" required>
+                        </div>
+                        <div class="inputBx">
+                            <label for="password">Password</label>
+                            <input type="password" placeholder="Enter Your Password" name="password" required>
+                        </div>
+                        <div class="inputBx">
+                            <label for="Cpassword">Confirm Password</label>
+                            <input type="password" placeholder="Enter Your Full Name" name="confirmPassword" required>
+                        </div>
+
+                        <span class="gender-title">Gender</span>
+                        <div class="gender-category">
+                            <input type="radio" name="gender" id="female">
+                            <label for="gender">Female</label>
+                            <input type="radio" name="gender" id="male">
+                            <label for="gender">Male</label>
+                            <input type="radio" name="gender" id="trans">
+                            <label for="gender">Transgender</label>
+                            <input type="radio" name="gender" id="other">
+                            <label for="gender">Other</label>
+                        </div>
+                </form>
+            </div>
+
+            <div class="alert">
+                <p>By clicking Sign Up, ypou agree to our <a href="#">Terms,</a><a href="#">Privacy Policy,</a>
+                    and
+                    <a href="#">Coockies.</a> You may
+                    receive notification through us and can opt any time.
+                </p>
+            </div>
+            <div class="button-container">
+                <button type="submit">Register</button>
+            </div>
+
+        </div>
+        </div>
+    </section>
+</body>
+
+</html>
